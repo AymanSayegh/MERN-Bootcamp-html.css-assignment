@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.left-div {
+  background-color: #f7b73a;
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-div h1 {
+  color: white;
+}
+
+.facebook-div,
+.twitter-div,
+.google-div,
+.behance-div {
+  width: 320px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.facebook-logo,
+.twitter-logo,
+.google-logo,
+.behance-logo {
+  width: 20%;
+}
+
+.facebook-div {
+  margin: 30px 0 30px 0;
+  display: flex;
+}
+
+.facebook-logo {
+  background-color: #31518c;
+}
+
+.facebook-logo,
+.google-logo,
+.twitter-logo,
+.behance-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook-logo img {
+  width: 40px;
+  height: 40px;
+  margin-left: -10px;
+}
+
+.facebook-p {
+  background-color: #395994;
+  width: 80%;
+}
+
+.twitter-div {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.twitter-logo {
+  background-color: #1da1f2;
+}
+
+.twitter-logo img {
+  width: 55px;
+  height: 55px;
+}
+
+.twitter-p {
+  background-color: #52abef;
+  width: 80%;
+}
+
+.google-div {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.google-logo {
+  background-color: #b00000;
+}
+
+.google-logo img {
+  width: 55px;
+  height: 55px;
+}
+
+.google-p {
+  background-color: #c84330;
+  width: 80%;
+}
+
+.behance-div {
+  display: flex;
+}
+
+.behance-logo {
+  background-color: #0092c9;
+}
+
+.behance-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.behance-p {
+  background-color: #00a2dd;
+  width: 80%;
+}
+
+h3 {
+  color: white;
+  margin-left: 15px;
+  font-weight: normal;
+}
+
+.right-div {
+  background-color: white;
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+}
